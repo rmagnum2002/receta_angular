@@ -7,6 +7,14 @@ Rails.application.config.assets.version = '1.0'
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )
 
-Rails.application.config.assets.precompile += %w( bootstrap/glyphicons-halflings-regular.eot bootstrap/glyphicons-halflings-regular.woff bootstrap/glyphicons-halflings-regular.ttf )
+Rails.application.config.assets.precompile += %w(
+  bootstrap/glyphicons-halflings-regular.eot
+  bootstrap/glyphicons-halflings-regular.woff
+  bootstrap/glyphicons-halflings-regular.ttf
+  teaspoon.css
+  teaspoon-teaspoon.js
+  teaspoon-jasmine.js
+  jasmine/1.3.1.js
+ )
 # Rails.application.config.assets.precompile += %w( bootstrap/glyphicons-halflings-regular.woff )
 # Rails.application.config.assets.precompile += %w( bootstrap/glyphicons-halflings-regular.ttf )
