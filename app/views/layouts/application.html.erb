@@ -3,14 +3,13 @@
 <head>
   <title>Receta</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <div class="col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-2 col-lg-10 col-lg-offset-1">
+    <%= yield %>
+  </div>
 
-<div class="col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-2 col-lg-10 col-lg-offset-1">
-  <%= yield %>
-</div>
-
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 </body>
 </html>
